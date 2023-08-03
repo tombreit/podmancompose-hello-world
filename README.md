@@ -1,5 +1,7 @@
 # podman-compose example
 
+*Demo for https://github.com/containers/podman-compose/discussions/740*
+
 This should test if I can set the podman compose file via `.env` variable `COMPOSE_FILE`[1]:
 
 ```
