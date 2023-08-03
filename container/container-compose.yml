@@ -1,0 +1,7 @@
+---
+version: '3'
+services:
+  web:
+    image: gcr.io/google-samples/hello-app:1.0
+    ports:
+        - "${HOST_PORT:-8088}:8080"
